@@ -1,0 +1,287 @@
+# Page settings
+baseURL = "https://avplenkin86.github.io/"
+languageCode = "ru"
+title = "Плёнкин Алексей Викторович — Технический руководитель / ИТ-Архитектор"
+theme = "hugo-devresume-theme"
+# googleAnalytics = ""  # оставьте пустым или укажите ваш ID
+
+[params]
+  author = "Алексей Плёнкин"
+  description = "Резюме технического руководителя и ИТ-архитектора: 15 лет опыта в проектировании, разработке и сопровождении высоконагруженных систем федерального масштаба."
+  primaryColor = "#54B689"       # основной зелёный темы
+  textPrimaryColor = "#292929"   # цвет основного текста
+
+# -------------------------------------------------------------
+# ПРОФИЛЬ (верхний блок с именем и должностью)
+# -------------------------------------------------------------
+[params.profile]
+  enable = true
+  name = "Алексей Плёнкин"
+  tagline = "Технический руководитель / ИТ-Архитектор"
+  avatar = "portfolio.jpg"          # замените на свой файл (200x200 px)
+
+# -------------------------------------------------------------
+# КОНТАКТЫ
+# -------------------------------------------------------------
+[params.contact]
+  enable = true
+  location = "Москва, м. Крылатское"
+
+[[params.contact.list]]
+  icon = "fas fa-phone-square"
+  url   = "tel:+79857724750"
+  text  = "+7 (985) 772-47-50"
+
+[[params.contact.list]]
+  icon = "fas fa-envelope-square"
+  url   = "mailto:plenkinav@yandex.ru"
+  text  = "plenkinav@yandex.ru"
+
+[[params.contact.list]]
+  icon = "fas fa-globe"
+  url   = "https://avplenkin86.github.io/"
+  text  = "avplenkin86.github.io"
+
+[[params.contact.list]]
+  icon = "fab fa-telegram-plane"
+  url   = "https://t.me/plenkinav"
+  text  = "@plenkinav"
+
+# -------------------------------------------------------------
+# НАВЫКИ (сгруппированы по ключевым компетенциям)
+# -------------------------------------------------------------
+[params.skills]
+  enable = true
+
+[[params.skills.list]]
+  title = "Архитектура и проектирование"
+    [[params.skills.list.items]]
+      details = "Микросервисы (MSA), SOA, EDA, CAP/PACELC, ACID, WAL, репликация"
+    [[params.skills.list.items]]
+      details = "Импортозамещение: миграция с IBM/Oracle на Open Source"
+    [[params.skills.list.items]]
+      details = "Моделирование: TOGAF, ArchiMate, UML, C4 (Sparx EA, Archi, draw.io)"
+    [[params.skills.list.items]]
+      details = "Разработка архитектурных стандартов и методологий"
+
+[[params.skills.list]]
+  title = "Управление продуктом и процессами"
+    [[params.skills.list.items]]
+      details = "Полный цикл продукта: Roadmap → декомпозиция → запуск"
+    [[params.skills.list.items]]
+      details = "Product Ownership, бэклог, приоритизация, toil reduction"
+    [[params.skills.list.items]]
+      details = "Agile, Scrum, Kanban, Lean, DevOps, SRE, ITIL, SLA/SLO/SLI"
+    [[params.skills.list.items]]
+      details = "Управление распределёнными и кросс-функциональными командами"
+
+[[params.skills.list]]
+  title = "Инфраструктура и DevOps"
+    [[params.skills.list.items]]
+      details = "Kubernetes, Docker, OpenShift, Terraform, Ansible, AWX"
+    [[params.skills.list.items]]
+      details = "CI/CD/SCM, IDP, KaaS, IaaS"
+    [[params.skills.list.items]]
+      details = "Мониторинг: Prometheus, Grafana, ELK, Zabbix, Jaeger"
+    [[params.skills.list.items]]
+      details = "Безопасность: ГОСТ TLS, ЭЦП, OIDC/LDAP, DevSecOps, ФСТЭК"
+
+[[params.skills.list]]
+  title = "Технологический стек"
+    [[params.skills.list.items]]
+      details = "Java EE / Spring Boot, Python, JavaScript / Node.js, SQL, MQL"
+    [[params.skills.list.items]]
+      details = "PostgreSQL, MongoDB, ClickHouse, Oracle, Elasticsearch"
+    [[params.skills.list.items]]
+      details = "Kafka, ActiveMQ, Debezium, Nginx, Apache, Consul"
+    [[params.skills.list.items]]
+      details = "Linux (RPM/DEB), AIX, Windows, KVM, VMware, oVirt"
+
+[[params.skills.list]]
+  title = "ML и аналитика"
+    [[params.skills.list.items]]
+      details = "Проектирование ETL/ELT, DWH"
+    [[params.skills.list.items]]
+      details = "ML для Capacity Management и UEBA — sklearn, pandas"
+    [[params.skills.list.items]]
+      details = "Применение AI-ассистентов в SDLC"
+
+# -------------------------------------------------------------
+# ОБРАЗОВАНИЕ
+# -------------------------------------------------------------
+[params.education]
+  enable = true
+
+[[params.education.list]]
+  degree   = "Инженер по метрологическому обеспечению производства"
+  university = "МИЭМ (Московский государственный институт электроники и математики)"
+  dates    = "2003 – 2008"
+  description = "Диплом с отличием. Тема: автоматизация инженерных систем зданий."
+
+[[params.education.list]]
+  degree   = "Повышение квалификации «Управление проектами в области ИИ»"
+  university = "МЭО"
+  dates    = "2023"
+
+# -------------------------------------------------------------
+# НАГРАДЫ / СЕРТИФИКАЦИИ (раздел Awards)
+# -------------------------------------------------------------
+[params.awards]
+  enable = false   # у вас не указаны явные награды; можно включить при необходимости
+
+# -------------------------------------------------------------
+# ЯЗЫКИ
+# -------------------------------------------------------------
+[params.languages]
+  enable = true
+
+[[params.languages.list]]
+  name  = "Русский"
+  level = "Родной"
+
+[[params.languages.list]]
+  name  = "Английский"
+  level = "B2 (чтение документации, рабочее общение)"
+
+# -------------------------------------------------------------
+# ИНТЕРЕСЫ
+# -------------------------------------------------------------
+[params.interests]
+  enable = true
+
+[[params.interests.list]]
+  name = "Исследования в области ML и LLM"
+[[params.interests.list]]
+  name = "Платформенная инженерия"
+[[params.interests.list]]
+  name = "Open Source и импортозамещение"
+[[params.interests.list]]
+  name = "DevOps и SRE-практики"
+
+# -------------------------------------------------------------
+# РЕЗЮМЕ (секция Summary)
+# -------------------------------------------------------------
+[params.summary]
+  enable = true
+  text   = """
+Последние 15 лет:
+- в различных ролях участвовал в полном цикле проектирования, разработки, внедрения, развития и сопровождения высоконагруженных распределённых систем федерального масштаба (ГИС, финтех) и ИТ-продуктов (платформы разработки, облачные сервисы, инфраструктурное ПО);
+- управлял командами (линейными, матричными, кросс-функциональными), выстраивал процессы, внедрял Agile и DevOps-практики;
+- проводил исследования в области обучения ML-моделей, применения LLM в SDLC;
+- разрабатывал стандарты, методики и методологии.
+
+Высшее инженерное образование по специализации «Метрологическое обеспечение производства» заложило системный подход к управлению качеством и надёжностью.
+
+Ищу команду для работы над масштабными технологическими задачами, где востребованы системный подход, глубокая техническая экспертиза и умение доводить продукты до промышленного результата.
+"""
+
+# -------------------------------------------------------------
+# ОПЫТ РАБОТЫ (Experience)
+# -------------------------------------------------------------
+[params.experience]
+  enable = true
+
+[[params.experience.list]]
+  title   = "Главный архитектор программных продуктов"
+  dates   = "Июль 2024 – Апрель 2025"
+  company = "Т1 (Иннотех)"
+  details = "Разработка архитектурных стандартов, реестр продуктов (1000+ модулей), методология проектирования, экспертиза для внешнего аудита."
+
+[[params.experience.list]]
+  title   = "Ведущий продуктовый аналитик (Архитектор SDS)"
+  dates   = "Ноябрь 2025 – Февраль 2026"
+  company = "MIND Software"
+  details = "Проектирование интеграции с OIDC/LDAP, подсистемы аудита безопасности (ФСТЭК, CEF), резервного копирования конфигурации кластера SDS."
+
+[[params.experience.list]]
+  title   = "Архитектор комплексных проектов"
+  dates   = "Август 2022 – Апрель 2024"
+  company = "ОНЛАНТА"
+  details = "Миграция систем между облаками, обучение команд (проектное и продуктовое управление, UML), работа над KaaS-платформой, RnD ML-подсистемы аналитики."
+
+[[params.experience.list]]
+  title   = "Владелец продукта (EFSS и сервис аналитики)"
+  dates   = "Октябрь 2021 – Февраль 2022"
+  company = "ПАО ВТБ"
+  details = "Анализ рынка и конкурентной среды, концептуальная архитектура защищённого файлового хранилища, E2E-шифрование, Roadmap, Kanban-команда."
+
+[[params.experience.list]]
+  title   = "Технический руководитель проектов / Системный архитектор"
+  dates   = "2010 – 2021"
+  company = "ЛАНИТ, ДКС"
+  details = """
+Карьерный рост от системного администратора до технического руководителя.
+Ключевые проекты: zakupki.gov.ru, bus.gov.ru, torgi.gov.ru (ГИС ФК), агрегатор торгов ЕАТ, СИТИ Банк, РСА.
+- Внедрение DevOps/SRE, построение мониторинга и 3-й линии поддержки;
+- Проектирование и внедрение катастрофоустойчивого решения (RPO 5 мин, RTO 2 ч, 1 ПБ данных);
+- Импортозамещение всего стека, переход от монолита к MSA/EDA;
+- Проектирование ГИС с нуля (torgi.gov.ru, agregatoreat.ru).
+"""
+
+[[params.experience.list]]
+  title   = "Системный администратор → Ведущий системный администратор"
+  dates   = "2005 – 2010"
+  company = "Малый и средний бизнес"
+  details = "Проектирование и внедрение гиперконвергентного кластера виртуализации (Xen, DRBD, Linux HA)."
+
+# -------------------------------------------------------------
+# ПРОЕКТЫ (Projects)
+# -------------------------------------------------------------
+[params.projects]
+  enable = true
+
+[[params.projects.list]]
+  title   = "ГИС ФК (zakupki.gov.ru, bus.gov.ru, torgi.gov.ru)"
+  meta    = "Федеральная государственная информационная система"
+  tagline = "Проектирование и сопровождение катастрофоустойчивого решения, миграция в облако, импортозамещение, построение 3-й линии поддержки."
+
+[[params.projects.list]]
+  title   = "Агрегатор торгов ЕАТ (agregatoreat.ru)"
+  meta    = "Платформа электронных торгов"
+  tagline = "Проектирование с нуля, внедрение DevOps-практик, мониторинг, масштабирование."
+
+[[params.projects.list]]
+  title   = "Облачная платформа VTB (EFSS + аналитика)"
+  meta    = "Внутренний облачный сервис"
+  tagline = "Концептуальная архитектура защищённого файлового хранения (E2E-шифрование), Roadmap, MVP."
+
+[[params.projects.list]]
+  title   = "KaaS-платформа (ОНЛАНТА)"
+  meta    = "Kubernetes-as-a-Service"
+  tagline = "Платформа полного цикла разработки и исполнения ПО, RnD ML-подсистемы аналитики."
+
+# -------------------------------------------------------------
+# ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ (Papers / публикации)
+# -------------------------------------------------------------
+[params.information]
+  enable = true
+
+[[params.information.list]]
+  title = "Публикации и статьи"
+    [[params.information.list.items]]
+      details = "2023 · Повышение квалификации «Управление проектами в области искусственного интеллекта»"
+    [[params.information.list.items]]
+      details = "Разработка архитектурных стандартов и методологий (Т1 / Иннотех)"
+    [[params.information.list.items]]
+      details = "Методика sizing/capacity planning для высоконагруженных систем"
+
+# -------------------------------------------------------------
+# СОЦИАЛЬНЫЕ СЕТИ
+# -------------------------------------------------------------
+[params.social]
+  enable = true
+
+[[params.social.list]]
+  icon  = "fab fa-github-square"
+  url   = "//github.com/plenkinav"          # замените на реальный профиль
+  title = "plenkinav"
+
+[[params.social.list]]
+  icon  = "fab fa-linkedin"
+  url   = "//linkedin.com/in/plenkinav"     # замените на реальный профиль
+  title = "Алексей Плёнкин"
+
+[[params.social.list]]
+  icon  = "fab fa-telegram"
+  url   = "//t.me/plenkinav"
+  title = "@plenkinav"
