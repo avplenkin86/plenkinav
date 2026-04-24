@@ -1,6 +1,6 @@
 # Page settings
 baseURL = "https://avplenkin86.github.io/"
-languageCode = "ru"
+locale = "ru"
 title = "Плёнкин Алексей Викторович — Технический руководитель / ИТ-Архитектор"
 theme = "hugo-devresume-theme"
 # googleAnalytics = ""  # оставьте пустым или укажите ваш ID
