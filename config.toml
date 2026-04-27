@@ -39,8 +39,8 @@ theme = "hugo-devresume-theme"
 
 [[params.contact.list]]
   icon = "fas fa-globe"
-  url   = "https://avplenkin86.github.io/"
-  text  = "avplenkin86.github.io"
+  url   = "https://github.com/avplenkin86"
+  text  = "github.com/avplenkin86"
 
 [[params.contact.list]]
   icon = "fab fa-telegram-plane"
